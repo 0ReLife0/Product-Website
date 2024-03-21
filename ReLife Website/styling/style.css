@@ -7,9 +7,15 @@ html, body {
 }
 
 .navbar {
-    height: 5em;
+    height: auto;
     background-color: #ffff;
     transition: background-color 0.5s ease;
+}
+
+
+.navbar-background {
+    background-color: #ffff;
+    margin-top: 0;
 }
 
 .navbar-brand img {
@@ -52,14 +58,18 @@ html, body {
     font-size: 2.5rem;
 }
 
+p {
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 ul > li, a {
-    color: #056839;
     margin:0 4px;
     font-family: "Rubik Mono One", monospace;
     font-size: 1rem;
     z-index: 1;
     height: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,9 +80,31 @@ ul > li, a {
     color: #056839;
 }
 
+.nav-link:hover {
+    color: #056839;
+}
+
+
+
 .scrolled {
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+
+}
+
+.product-img {
+    display: block;
+    max-width: 600px;
+    height: auto;
+    width: 100%;
+    margin-top: -2em;
 }
 
 .img{
@@ -80,6 +112,15 @@ ul > li, a {
     max-width: 100%;
     height: auto;
     margin: 1em;
+
+}
+
+.stores-img {
+    display: block;
+    max-width: 400px;
+    height: auto;
+    width: 100%;
+    margin-top: 2em;
 }
 
 .content {
@@ -93,13 +134,27 @@ ul > li, a {
     padding: 2em 2em 10em 2em;
 }
 
+.product-content {
+    flex-grow: 1;
+    display: grid;
+    row-gap: 2em;
+    place-content: center;
+    text-align: center;
+    margin-top: 5em;
+    font-family: "Rubik Mono One", monospace;
+    padding: 2em 2em 10em 2em;
+}
+
 .btn-success {
     background-color: #056839;
+}
 
+.btn-success:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
 }
 
 .footer {
-    
     margin-top: auto; /* Push footer to the bottom */
     background-color: #F8F8F8;
     border-top: 1px solid #E7E7E7;
@@ -112,3 +167,21 @@ ul > li, a {
     font-size: 1.5rem;
 }
 
+@media screen and (max-width: 768px) {
+    .content {
+        margin-top: 10em;
+    }
+    .product-img {
+        max-width: 400px;
+        margin-top: -5em;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .product-img {
+        max-width: 500px;
+        margin-top: -4em;
+    }
+    
+}

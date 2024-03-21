@@ -20,7 +20,7 @@
             <img src="./assets/img/groen.webp" alt="Afbeelding 1" class="img img-fluid">
         </div>
         <div class="col-md-6">
-            <h6>Bij ReLife is het beschermen van de privacy van onze gebruikers een kernwaarde. We hanteren strikte beveiligingsprotocollen en voldoen aan alle wet- en regelgeving met betrekking tot gegevensbescherming. Door transparantie en integriteit te waarborgen, bouwen we een sterke basis van vertrouwen op tussen ons bedrijf en onze gemeenschap. Bij elke interactie streven we ernaar om het hoogste niveau van privacy en veiligheid te bieden, zodat onze gebruikers zich comfortabel voelen bij het gebruik van ons platform.</h6>
+            <p>Bij ReLife is het beschermen van de privacy van onze gebruikers een kernwaarde. We hanteren strikte beveiligingsprotocollen en voldoen aan alle wet- en regelgeving met betrekking tot gegevensbescherming. Door transparantie en integriteit te waarborgen, bouwen we een sterke basis van vertrouwen op tussen ons bedrijf en onze gemeenschap. Bij elke interactie streven we ernaar om het hoogste niveau van privacy en veiligheid te bieden, zodat onze gebruikers zich comfortabel voelen bij het gebruik van ons platform.</p>
         </div>
     </div>
     
@@ -30,7 +30,7 @@
             <img src="./assets/img/privacy.jpg" alt="Afbeelding 2" class="img img-fluid">
         </div>
         <div class="col-md-6 order-md-1">
-            <h6>ReLife is gepassioneerd in haar streven naar een duurzamere en meer gebruikersvriendelijke markt voor tweedehands en gereviseerde producten. </h6>
+            <p>ReLife is gepassioneerd in het streven naar een duurzamere en meer gebruikersvriendelijke markt voor tweedehands en gereviseerde producten. </p>
         </div>
     </div>
     
@@ -40,7 +40,7 @@
             <img src="./assets/img/verandering.webp" alt="Afbeelding 3" class="img img-fluid">
         </div>
         <div class="col-md-6">
-            <h6>Onze visie is gebaseerd op het creëren van waarde voor zowel onze gebruikers als het milieu. Door middel van innovatie en samenwerking optimaliseren we transport en verzending voor verbeterde milieuprestaties. We betrekken onze gemeenschap bij groene praktijken en milieubewustzijn door middel van educatieve initiatieven. Bij ReLife geloven we dat door samen te werken aan een groenere toekomst, we een positieve impact kunnen hebben op de wereld om ons heen.</h6>
+            <p>Onze visie is gebaseerd op het creëren van waarde voor zowel onze gebruikers als het milieu. Door middel van innovatie en samenwerking optimaliseren we transport en verzending voor verbeterde milieuprestaties. We betrekken onze gemeenschap bij groene praktijken en milieubewustzijn door middel van educatieve initiatieven. Bij ReLife geloven we dat door samen te werken aan een groenere toekomst, we een positieve impact kunnen hebben op de wereld om ons heen.</p>
         </div>
     </div>
 </div>
