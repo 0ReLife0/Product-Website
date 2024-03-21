@@ -1,9 +1,8 @@
 <?php 
-    $pageTitle = 'Contact Ons'; // Page title
+    $pageTitle = 'Contact Ons';
     $activePage = 'contact'; // Set the active page
     include './components/header.php'; 
 ?>
-
 <?php include './components/navbar.php'; ?>
 
 <div class="col-sm-12 col-md-12 col-lg-12 content">

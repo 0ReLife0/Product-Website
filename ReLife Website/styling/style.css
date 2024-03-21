@@ -1,36 +1,42 @@
-html, body, .row {
-    height: 100%;
-    width: 100%;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    margin: 0;  
+
+html, body {
+    display: flex; 
+    flex-direction: column;
+    min-height: 100svh; 
+    margin: 0; 
 }
 
-.navbar { 
-    height: 7.5%;
+.navbar {
+    height: 5em;
+    background-color: #ffff;
+    transition: background-color 0.5s ease;
 }
 
-.navbar-nav {
-    margin-top: 10px;
+.navbar-brand img {
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+    margin: 1em;
 }
+
+.bg-light {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.navbar.scrolled {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+
 
 .navbar-brand {
     margin: 0;
     padding: 0;
-    color:  #056839;
     height: 100%;
 }
 
-.navbutton {
-    position: absolute;
-    
-    right: 0;
-    top: 22px;
-    margin-right: 24px;
-    font-size: 2rem;
-}
-
-.nav > ul {
+.navbar > ul {
     margin: 0;
     text-decoration: none;
     list-style: none;
@@ -38,7 +44,8 @@ html, body, .row {
     display: flex;
     flex-direction: row;
 }
-.nav > i{
+
+.navbar > i{
     position: absolute;
     right: 0;
     margin-right: 8%;
@@ -59,22 +66,44 @@ ul > li, a {
     align-items: center;
 }
 
-.content {
-    height: 82.5%;
+.navbar .navbar-nav .nav-item.active .nav-link {
+    color: #056839;
+}
 
+.scrolled {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+.img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1em;
+}
+
+.content {
+    flex-grow: 1;
     display: grid;
+    row-gap: 10em;
     place-content: center;
     text-align: center;
-
+    margin-top: 15em;
     font-family: "Rubik Mono One", monospace;
+    padding: 2em 2em 10em 2em;
+}
+
+.btn-success {
+    background-color: #056839;
+
 }
 
 .footer {
-    height: 8%;
+    
+    margin-top: auto; /* Push footer to the bottom */
     background-color: #F8F8F8;
     border-top: 1px solid #E7E7E7;
     color: #056839;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,3 +111,4 @@ ul > li, a {
     font-family: "Rubik Mono One", monospace;
     font-size: 1.5rem;
 }
+

@@ -1,12 +1,14 @@
 <?php 
-    $pageTitle = 'ReLife App'; // Page title
+    $pageTitle = 'ReLife App';
     $activePage = 'home'; // Set the active page
     include './components/header.php'; 
 ?>
 
 <?php include './components/navbar.php'; ?>
 
-<div class="col-sm-12 col-md-12 col-lg-12 content">
+
+
+<div class="col-sm-12 col-md-12 col-lg-12 pt-5 content">
     <div class="jumbotron" style="padding: 24px;">
         <h2 style="text-align: left; color: #056839;">Est. 2024</h1>
         <h1 style="text-align: left;"><u>ReLife</u></h1>

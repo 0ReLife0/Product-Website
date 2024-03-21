@@ -1,0 +1,15 @@
+{
+    "name": "ReLife App",
+    "short_name": "App",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#056839",
+    "background_color": "#ffffff",
+    "icons": [
+        {
+            "src": "../assets/img/logo/192w/ReLife.png",
+            "sizes": "192x149",
+            "type": "image/png"
+        }
+    ]
+}
