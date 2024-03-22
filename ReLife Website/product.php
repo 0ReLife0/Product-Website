@@ -68,7 +68,9 @@
     <div class="container content">
         <div class="row mb-2">
             <div class="col-lg-12">
-                <button class="btn btn-success">DOWNLOAD DE APP</button>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <button class="cta-btn btn-success">DOWNLOAD APP</button>
+                </a>
                 <img class="stores-img img-fluid" src="./assets/img/stores.png" alt="">
             </div>
         </div>
