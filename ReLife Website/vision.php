@@ -9,8 +9,8 @@
 <div class="col-sm-12 col-md-12 col-lg-12 content">
     <div class="row row-gap-2">
         <div class="col-12">
-            <h1 class="mb-5">Onze Visie</h1>
-            <p>ReLife staat aan de voorhoede van verandering, gedreven door een visie om de tweedehands en gereviseerde markt te transformeren. Met innovatieve technologieën en duurzame praktijken streven we ernaar om de wereldwijde kijk op consumptie te herdefiniëren. Onze inspanningen zijn gericht op het bevorderen van milieuvriendelijkheid door hergebruik te stimuleren en verspilling te minimaliseren. Door gebruik te maken van efficiënte logistiek en gerecyclede materialen, verkleinen we onze ecologische voetafdruk en dragen we bij aan een groenere toekomst.</p>
+            <h1 class="my-5 display-4">Onze <span style="color:#056839">Visie</span></h1>
+            <p class="py-5">ReLife staat aan de voorhoede van verandering, gedreven door een visie om de tweedehands en gereviseerde markt te transformeren. <br><br>Met innovatieve technologieën en duurzame praktijken streven wij ernaar om de wereldwijde kijk op consumptie te herdefiniëren. Onze inspanningen zijn gericht op het bevorderen van milieuvriendelijkheid door hergebruik te stimuleren en verspilling te minimaliseren. <br><br>Door gebruik te maken van efficiënte logistiek en gerecyclede materialen, verkleinen we onze ecologische voetafdruk en dragen we bij aan een groenere toekomst.</p>
         </div>
     </div>
     
@@ -20,7 +20,7 @@
             <img src="./assets/img/groen.webp" alt="Afbeelding 1" class="img img-fluid">
         </div>
         <div class="col-md-6">
-            <p>Bij ReLife is het beschermen van de privacy van onze gebruikers een kernwaarde. We hanteren strikte beveiligingsprotocollen en voldoen aan alle wet- en regelgeving met betrekking tot gegevensbescherming. Door transparantie en integriteit te waarborgen, bouwen we een sterke basis van vertrouwen op tussen ons bedrijf en onze gemeenschap. Bij elke interactie streven we ernaar om het hoogste niveau van privacy en veiligheid te bieden, zodat onze gebruikers zich comfortabel voelen bij het gebruik van ons platform.</p>
+            <p>Bij ReLife is het beschermen van de privacy van onze gebruikers een kernwaarde. <br><br> Wij hanteren strikte beveiligingsprotocollen en voldoen aan alle wet- en regelgeving met betrekking tot gegevensbescherming. <br><br>Door transparantie en integriteit te waarborgen, bouwen we een sterke basis van vertrouwen op tussen ons bedrijf en onze gemeenschap. Bij elke interactie streven we ernaar om het hoogste niveau van privacy en veiligheid te bieden, zodat onze gebruikers zich comfortabel voelen bij het gebruik van ons platform.</p>
         </div>
     </div>
     
@@ -40,7 +40,7 @@
             <img src="./assets/img/verandering.webp" alt="Afbeelding 3" class="img img-fluid">
         </div>
         <div class="col-md-6">
-            <p>Onze visie is gebaseerd op het creëren van waarde voor zowel onze gebruikers als het milieu. Door middel van innovatie en samenwerking optimaliseren we transport en verzending voor verbeterde milieuprestaties. We betrekken onze gemeenschap bij groene praktijken en milieubewustzijn door middel van educatieve initiatieven. Bij ReLife geloven we dat door samen te werken aan een groenere toekomst, we een positieve impact kunnen hebben op de wereld om ons heen.</p>
+            <p>Onze visie is gebaseerd op het creëren van waarde voor zowel onze gebruikers als het milieu. <br><br>Door middel van innovatie en samenwerking optimaliseren we transport en verzending voor verbeterde milieuprestaties. <br><br>Wij betrekken onze gemeenschap bij groene praktijken en milieubewustzijn door middel van educatieve initiatieven. Bij ReLife geloven we dat door samen te werken aan een groenere toekomst, we een positieve impact kunnen hebben op de wereld om ons heen.</p>
         </div>
     </div>
 </div>
