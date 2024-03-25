@@ -6,16 +6,16 @@
 <?php include './components/navbar.php'; ?>
 
 <div class="col-sm-12 col-md-12 col-lg-12 product-content">
-<!-- Inhoud van de productpagina -->
 <div class="container content">
     <div class="row mb-2">
         <div class="col-lg-12">
             <h1 class="display-4 text-center">Vind Je Perfecte <span style="color:#056839">Match!</span></h1>
-            <h5 class="text-center">Geef je elektronica een <span style="color:#056839">tweede leven!</span></h5>
+            <h4 class="text-center">Geef je elektronica een <span style="color:#056839">tweede leven!</span></h4>
         </div>
     </div>
 </div>
 
+<!-- Main product view -->
 <div class="container img-wrapper">
     <div class="row mb-4">
         <div class="col-lg-12">
@@ -55,7 +55,7 @@
         </div>
     </div>
 
-    <!-- Row for the second text-image pair -->
+    <!-- Row for the fourth text-image pair -->
     <div class="row mb-3 align-items-center">
         <div class="col-md-6 order-md-2">
             <img src="./assets/img/mockups/ReLife_Mockup_5.png" alt="iPhone 15 pro with ReLife 5" class="product-img-child img-fluid">
@@ -65,6 +65,7 @@
         </div>
     </div>
 
+    <!-- CTA Button -->
     <div class="container content">
         <div class="row mb-2">
             <div class="col-lg-12">

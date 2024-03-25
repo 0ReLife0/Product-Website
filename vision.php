@@ -8,9 +8,9 @@
 
 <div class="col-sm-12 col-md-12 col-lg-12 content">
     <div class="row row-gap-2">
-        <div class="col-12">
-            <h1 class="my-5 display-4">Onze <span style="color:#056839">Visie</span></h1>
-            <p class="py-5">ReLife staat aan de voorhoede van verandering, gedreven door een visie om de tweedehands en gereviseerde markt te transformeren. <br><br>Met innovatieve technologieën en duurzame praktijken streven wij ernaar om de wereldwijde kijk op consumptie te herdefiniëren. Onze inspanningen zijn gericht op het bevorderen van milieuvriendelijkheid door hergebruik te stimuleren en verspilling te minimaliseren. <br><br>Door gebruik te maken van efficiënte logistiek en gerecyclede materialen, verkleinen we onze ecologische voetafdruk en dragen we bij aan een groenere toekomst.</p>
+        <div class="col-12 text-wrapper">
+            <h1 class="mb-5 display-3">Onze <span style="color:#056839">Visie</span></h1>
+            <h5 class="py-5">ReLife staat aan de voorhoede van verandering, gedreven door een visie om de tweedehands en gereviseerde markt te transformeren. <br><br>Met innovatieve technologieën en duurzame praktijken streven wij ernaar om de wereldwijde kijk op consumptie te herdefiniëren. Onze inspanningen zijn gericht op het bevorderen van milieuvriendelijkheid door hergebruik te stimuleren en verspilling te minimaliseren. <br><br>Door gebruik te maken van efficiënte logistiek en gerecyclede materialen, verkleinen we onze ecologische voetafdruk en dragen we bij aan een groenere toekomst.</h5>
         </div>
     </div>
     
