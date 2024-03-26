@@ -1,8 +1,8 @@
 <header>
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.php">
-                <img src="./assets/img/logo/ReLifeLogo.png" alt="ReLife" style="width: 80px;">
+            <a class="navbar-logo-wrapper" href="./index.php">
+                <img class="nav-logo" src="./assets/img/logo/ReLifeLogo.png" alt="ReLife">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
                     <li class="nav-item <?php echo $activePage == 'contact' ? 'active' : ''; ?>">
                         <a class="nav-link" href="./contact.php">Contact</a>
                     </li>
-                    <li class="nav-item m-auto ms-5 me-4">
+                    <li class="nav-item m-auto nav-item-cta">
                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                             <button class="btn btn-success">DOWNLOAD APP</button>
                         </a>
