@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 py-5">
                         <div class="profile-pic-wrapper">
-                            <img class="mb-4 profile-pic" src="./assets/img/pfp/brent-pfp.jpg" alt="Brent-pfp">
+                            <img class="mb-4 profile-pic" src="./assets/img/pfp/brent-pfp.webp" alt="Brent-pfp">
                         </div>
                         <h4 class="mb-4">Brent Koers</h4>
                         <p>Brent, de operationele kracht, optimaliseert de processen binnen ReLife voor maximale efficiëntie en impact.</p>
@@ -44,7 +44,7 @@
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6 py-5">
                         <div class="profile-pic-wrapper">
-                            <img class="mb-4 profile-pic" src="./assets/img/pfp/yazan-pfp.webp" alt="Yazan-pfp">
+                            <img class="mb-4 profile-pic" src="./assets/img/pfp/yazan-pfp.png" alt="Yazan-pfp">
                         </div>
                         <h4 class="mb-4">Yazan Al Akkad</h4>
                         <p>Als strategische leider combineert Yazan zijn passie voor IT en duurzaamheid om ReLife vooruit te stuwen naar nieuwe hoogten.</p>
