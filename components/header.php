@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,6 +19,6 @@
     <link rel="mask-icon" href="./assets/img/logo/SVG/ReLife.svg" color="#ffffff">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#056839">
-    <title><?php echo isset($pageTitle) ? $pageTitle : 'Default Title'; ?></title>
+    <title><?php echo isset($pageTitle) ? $pageTitle : 'ReLife - Jouw Tweede Leven Voor Elektronica'; ?></title>
 </head>
 

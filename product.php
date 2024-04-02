@@ -6,26 +6,26 @@
 <?php include './components/navbar.php'; ?>
 
 <div class="col-sm-12 col-md-12 col-lg-12 product-content">
-<div class="container content">
-    <div class="row mb-2">
-        <div class="col-lg-12">
-            <h1 class="display-4 text-center">Vind Je Perfecte <span style="color:#056839">Match!</span></h1>
-            <h4 class="text-center">Geef je elektronica een <span style="color:#056839">tweede leven!</span></h4>
-        </div>
-    </div>
-</div>
-
-<!-- Main product view -->
-<div class="container img-wrapper">
-    <div class="row mb-4">
-        <div class="col-lg-12">
-            <img class="product-img-main" src="./assets/img/mockups/ReLife_Mockup_4.png" alt="A hand holding an iPhone 15 with the app">
+    <div class="container content">
+        <div class="row mb-2">
+            <div class="col-lg-12">
+                <h1 class="display-4 text-center">Vind Je Perfecte <span style="color:#056839">Match!</span></h1>
+                <h4 class="text-center">Geef je elektronica een <span style="color:#056839">tweede leven!</span></h4>
+            </div>
         </div>
     </div>
 
-</div>
+    <!-- Main product view -->
+    <div class="img-wrapper">
+        <div class="row mb-4">
+            <div class="col-lg-12">
+                <img class="product-img-main" src="./assets/img/mockups/ReLife_Mockup_4.png" alt="An iPhone 15 with the app open">
+            </div>
+        </div>
 
-<!-- Row for the first image-text pair -->
+    </div>
+
+    <!-- Row for the first image-text pair -->
     <div class="row mb-3 align-items-center">
         <div class="col-md-6">
             <img src="./assets/img/mockups/ReLife_Mockup_1.png" alt="iPhone 15 pro with ReLife 2" class="product-img-child img-fluid">
@@ -69,8 +69,8 @@
     <div class="container content">
         <div class="row mb-2">
             <div class="col-lg-12">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                    <button class="cta-btn btn-success">DOWNLOAD APP</button>
+                <a class="cta-btn-container" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <button class="cta-btn cta-btn-product btn-success">DOWNLOAD APP</button>
                 </a>
                 <img class="stores-img img-fluid" src="./assets/img/stores.png" alt="">
             </div>
