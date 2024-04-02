@@ -17,6 +17,7 @@
     <link rel="apple-touch-icon" sizes="180x138" href="./assets/img/logo/180w/ReLife.png">
     <link rel="manifest" href="./assets/img/logo/android/ReLife.webmanifest">
     <link rel="mask-icon" href="./assets/img/logo/SVG/ReLife.svg" color="#ffffff">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#056839">
     <title><?php echo isset($pageTitle) ? $pageTitle : 'ReLife - Jouw Tweede Leven Voor Elektronica'; ?></title>

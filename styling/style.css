@@ -18,13 +18,10 @@ html, body {
 
 }
 
-
-
 .navbar-background {
     background-color: #ffff;
     margin-top: 0;
 }
-
 
 .bg-light {
     background: rgba(255, 255, 255, 0.8);
@@ -36,7 +33,6 @@ html, body {
     backdrop-filter: blur(10px);
 
 }
-
 
 .navbar-logo-wrapper {
     display: flex;
@@ -52,7 +48,6 @@ html, body {
     width: 100%;
     max-width: 80px;
 }
-
 
 .navbar > ul {
     margin: 0;
@@ -116,6 +111,10 @@ ul > li, a {
     color: #056839;
 }
 
+.nav-link:not(:hover) {
+    transition: all 0.2s ease-in-out;
+}
+
 .scrolled {
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
@@ -140,8 +139,8 @@ ul > li, a {
 
 .home-content-text {
     position: relative;
-    z-index: 5; /* Ensure content is above the video and overlay */
-    color: white; /* Text color */
+    z-index: 5; 
+    color: white;
     text-align: left;
     font-size: 20em;
     padding-right: 2em;
@@ -171,41 +170,9 @@ ul > li, a {
 
 }
 
-/* .video-container {
-    position: relative;
-    width: 100%;
-    height: 100vh; 
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-#background-video {
-    position: absolute;
-    width: 100%;
-    top: 75px; 
-    left: 0; 
-    right: 0; 
-    height: calc(100% - 75px);
-    object-fit: cover;
-    z-index: 1;
-    opacity: 0.8;
-}
-
-
-.video-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7); 
-    z-index: 2;
-} */
-
 .video-section {
     position: relative;
-    height: 100vh;
+    height: 100svh;
     color: white;
     overflow: hidden;
 }
@@ -241,7 +208,7 @@ ul > li, a {
 
 .landing-page-main-title {
     font-family: "Archive";
-    font-size: 5em;
+    font-size: clamp(3em, 3.5vw, 6em);
     font-weight: bold;
 
 }
@@ -250,6 +217,10 @@ ul > li, a {
     color: #056839 ;
     border-radius: 50px;
     border: none;
+    padding: 1.2rem;
+    align-self: start;
+    margin-top: 3rem;
+    
 }
 
 .landing-page-main-btn:hover {
@@ -259,15 +230,24 @@ ul > li, a {
     color: #ffff;
 }
 
+.landing-page-main-btn:not(:hover) {
+    transition: all 0.2s ease-in-out;
+}
+
+
 .landing-page-paragraphs {
     font-size: 1em;
     font-weight: normal;
+    margin: 1rem auto;
+    text-align: left;
 }
 
 .landing-page-secondary-titles {
     font-family: "Archive";
     font-size: 2em;
     font-weight: bold;
+    margin: 1rem auto;
+    text-align: left;
 }
 
 .landing-page-features-container {
@@ -308,7 +288,7 @@ ul > li, a {
     align-items: center;
     margin: auto;
     width: 80%; 
-    max-width: 1200px;
+    max-width: 1000px;
     overflow: hidden;
     box-sizing: border-box;
     padding: 0 0 5rem 0;
@@ -354,27 +334,22 @@ ul > li, a {
     margin: 1em 0;
 }
 
-/* 
-.scroll {
-	width: 60px;
-	height: 60px;
-    margin: auto;
-	border: 2px solid #ffffff;
-	border-radius: 50%;
-	position: relative;
-	animation: down 1.5s infinite;
-	-webkit-animation: down 1.5s infinite;
-	&::before {
-		content: '';
-		position: absolute;
-		top: 15px;
-		left: 18px;
-		width: 18px;
-		height: 18px;
-		border-left: 2px solid #ffffff;
-        border-bottom: 2px solid #ffffff;
-		transform: rotate(-45deg);
-	}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    height: auto;
+    width: 20px;
+    left: 0; 
+    right: 0; 
+    bottom: 4rem;
+    margin-left: auto; 
+    margin-right: auto; 
+    cursor: pointer;
+}
+
+.scroll-down a img {
+    width: 6rem;
 }
 
 @keyframes down {
@@ -399,13 +374,38 @@ ul > li, a {
 	40% {
 		transform: translate(0);
 	}
-} */
+}
 
 .card {
     border-radius: 10px;
     box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.6);
     background-color: #ffff;
 }
+
+.card:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.card:not(:hover) {
+    transition: all 0.2s ease-in-out;
+}
+
+.mockup-images {
+    display: block;
+    height: auto !important;
+    margin: auto;
+}
+
+.mockup-images:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.mockup-images:not(:hover) {
+    transition: all 0.2s ease-in-out;
+}
+
 
 .product-img-main {
     display: block;
@@ -415,6 +415,7 @@ ul > li, a {
     margin-top: -5rem;
     overflow: hidden;
     margin-left: 2em;
+    padding-bottom: 10rem;
 }
 
 .product-img-child {
@@ -425,6 +426,15 @@ ul > li, a {
     object-fit: cover;
     margin: 10em auto;
     border-radius: 10px;
+}
+
+.product-img-child:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.product-img-child:not(:hover) {
+    transition: all 0.2s ease-in-out;
 }
 
 .img {
@@ -508,6 +518,10 @@ a {
     background-color: #044426;
 }
 
+.btn-success:not(:hover) {
+    transition: all 0.2s ease-in-out;
+}
+
 .cta-btn-container {
     display: block;
     height: auto;
@@ -535,6 +549,10 @@ a {
     background-color: #044426;
 }
 
+.cta-btn:not(:hover) {
+    transition: all 0.2s ease-in-out;
+}
+
 .cta-btn:active {
     transform: scale(0.9);
     transition: all 0.2s;
@@ -552,8 +570,6 @@ footer {
     padding-top: 100px;
     
 }
-
-
 
 .footer-content {
     position: relative;
@@ -606,6 +622,11 @@ footer {
     color: #1a2f50; /* Darker shade for hover effect */
 }
 
+.footer-column ul li a:not(:hover) {
+    transition: all 0.2s ease-in-out;
+}
+
+
 .footer-bottom {
     position: relative;
     z-index: 2;
@@ -619,7 +640,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 500px; 
+    height: 600px; 
     z-index: 1;
 }
 
@@ -650,7 +671,7 @@ footer {
 
 .overlay-content {
     position: relative;
-    top: 25%;
+    top: 18%;
     width: 80%;
     margin: auto;
     padding: 20px;
@@ -689,7 +710,12 @@ footer {
 
 .close-btn:hover {
     color: #1a2f50;
+    scale: 1.2;
     transition: all 0.2s;
+}
+
+.close-btn:not(:hover) {
+    transition: all 0.2s ease-in-out;
 }
 
 #map-container {
@@ -697,7 +723,7 @@ footer {
     width: 100%;
     max-width: 1140px;
     border-radius: 20px;
-    margin: 5rem auto 10rem auto;
+    margin: 5rem auto 30rem auto;
     overflow: hidden;
 }
 
@@ -722,7 +748,7 @@ footer {
 }
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .content {
         margin-top: 10em;
     }
@@ -748,15 +774,6 @@ footer {
     .bg-video {
         display: none !important;
     }
-
-    /* .video-container {
-        height: 100svh;
-        background-color: #056839;
-    } */
-
-    /* .video-overlay {
-        display: none !important;
-    } */
 
     .product-img-main {
         margin: -8rem 0 -4rem 0.8rem;
@@ -788,7 +805,6 @@ footer {
     }
 
     .landing-page-main-title {
-        font-size: 3em;
         text-align: center;
     }
 
@@ -799,13 +815,26 @@ footer {
     }
 
     .landing-page-main-btn {
+        padding: 1rem;
+        align-self: center;
         margin: 2rem 0 2rem 0;
     }
+    
+    .product-img-child {
+        margin-bottom: 5rem;
+    }
 
+    .landing-page-secondary-titles {
+        text-align: center;
+    }
+
+    .landing-page-paragraphs {
+        text-align: center;
+    }
 
 }
 
-@media screen and (min-width: 770px) {
+@media (min-width: 770px) and (max-width: 1100px) {
     .product-img {
         max-width: 500px;
         margin-top: -4em;
@@ -823,9 +852,8 @@ footer {
 
     .footer-waves {
 
-        height: 800px;
+        height: 1000px;
     }
-
 
     .landing-page-main-section {
         height: 100svh;
@@ -833,7 +861,6 @@ footer {
     }
 
     .landing-page-main-title {
-        font-size: 3em;
         text-align: left;
     }
 
@@ -845,7 +872,7 @@ footer {
 
     .landing-page-main-btn {
         margin: 2rem 0 2rem 0;
-        align-self: start;
+        align-self: left;
     }
 
 

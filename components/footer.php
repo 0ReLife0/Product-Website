@@ -3,7 +3,7 @@
         <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
         <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
         <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script defer type="text/javascript" src="./scripts/main.js"></script>
     </body>
     <footer>
@@ -44,7 +44,7 @@
                 </br></br>Voor alle vragen over de Algemene Voorwaarden kunt u contact opnemen via relifeapp@gmail.com.
 
                 </br></br>Datum van laatste aanpassing: 4/2/24</p>
-                <button class="close-btn" onclick="closeOverlay('algemeneVoorwaardenOverlay')">Sluiten</button>
+                <button class="close-btn" onclick="closeOverlay('algemeneVoorwaardenOverlay')"><i class="fa-solid fa-x"></i></button>
             </div>
         </div>
 
@@ -95,14 +95,14 @@
                     </br></br>Het Privacybeleid van ReLife is niet van toepassing op andere adverteerders of apps. Daarom adviseren wij u om het respectievelijke Privacybeleid van deze derden-advertentieservers te raadplegen voor meer gedetailleerde informatie. Het kan hun praktijken en instructies omvatten over hoe u zich kunt afmelden voor bepaalde opties.  
                 </p>
 
-                <button class="close-btn" onclick="closeOverlay('privacyOverlay')">Sluiten</button>
+                <button class="close-btn" onclick="closeOverlay('privacyOverlay')"><i class="fa-solid fa-x"></i></button>
             </div>
         </div>
 
 
         <div class="footer-waves-container">
             <svg class="footer-waves" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="400px" viewBox="0 200 1600 900" preserveAspectRatio="xMidYMax slice">
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="400px" viewBox="0 200 1600 920" preserveAspectRatio="xMidYMax slice">
                 <defs>
                     <linearGradient id="bg">
                         <stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
