@@ -4,6 +4,7 @@
         <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script defer type="text/javascript" src="./scripts/main.js"></script>
         <script defer type="text/javascript" src="/scripts/scroll-reveal-el.js"></script>
+        <script defer type="text/javascript" src="/scripts/cookies.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     </body>
     <footer>
@@ -111,16 +112,16 @@
             <div class="footer-column">
                 <h3>Algemeen</h3>
                 <ul>
-                    <li><a href="/index.php">Home</a></li>
-                    <li><a href="/product.php">Product</a></li>
-                    <li><a href="/contact.php">Neem Contact</a></li>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./product">Product</a></li>
+                    <li><a href="./contact">Neem Contact</a></li>
                 </ul>
             </div>
             <div class="footer-column">
                 <h3>Wie zijn wij?</h3>
                 <ul>
-                    <li><a href="/vision.php">Visie</a></li>
-                    <li><a href="/overons.php">Over Ons</a></li>
+                    <li><a href="./vision">Visie</a></li>
+                    <li><a href="./overons">Over Ons</a></li>
                     <li><a href="javascript:void(0)" onclick="openOverlay('algemeneVoorwaardenOverlay')">Algemene voorwaarden</a></li>
                     <li><a href="javascript:void(0)" onclick="openOverlay('privacyOverlay')">Privacy</a></li>
                 </ul>
@@ -130,7 +131,7 @@
                 <ul>
                     <li><a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></span> Facebook</a></li>
                     <li><a href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i> twitter</a></li>
-                    <li><a href="https://discord.com"><i class="fa-brands fa-discord"></i> Discord</a></li>
+                    <li><a href="https://discord.gg/3FuuCf9kPK"><i class="fa-brands fa-discord"></i> Discord</a></li>
                     <li><a href="https://youtube.com"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
                 </ul>
             </div>

@@ -87,6 +87,10 @@ nav.navbar {
     align-items: center;
 }
 
+.navbar-links > ul > li > a:hover {
+    color: #056839;
+}
+
 p {
     font-family: "Poppins";
     font-size: 1.2rem;
@@ -116,7 +120,12 @@ h4 {
 }
 
 .nav-item-cta {
-    margin: 0 1rem 0 1rem !important;
+    margin: auto 3rem auto 3rem !important;
+    
+}
+
+.nav-item-cta-child {
+    border-radius: 50px !important;
 }
 
 .nav-link:hover {
@@ -295,14 +304,15 @@ h4 {
     max-width: 1000px;
     overflow: hidden;
     box-sizing: border-box;
+    white-space: nowrap; 
     padding: 0 0 5rem 0;
 }
 
 .logo-container {
     display: flex;
-    animation: scroll 40s linear infinite;
+    animation: scroll 20s linear infinite;
     margin: auto;
-    width: calc(300%);
+    width: calc(200%);
 }
 
 .partner-logo {
@@ -311,16 +321,16 @@ h4 {
     width: 150px; 
     height: auto;
     filter: grayscale(100%); 
-    margin: 0 15px; 
+    padding: 0 15px; 
 }
 
 /* Keyframes for the scrolling animation */
 @keyframes scroll {
     0% {
-        transform: translateX(0);
+        transform: translate3d(0, 0, 0);
     }
     100% {
-        transform: translateX(calc(-150px * 3 - 30px * 3)); 
+        transform: translate3d(-50%, 0, 0);;
     }
 }
 
@@ -771,6 +781,27 @@ footer {
 }
 
 
+/* This part of the CSS targets the scrollbar track */
+::-webkit-scrollbar-track {
+  background: transparent; /* Track color */
+}
+
+/* This part targets the actual scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: #056839; /* Scrollbar color */
+}
+
+/* This is for when you hover over the scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Scrollbar color on hover */
+}
+
+/* This part targets the scrollbar itself */
+::-webkit-scrollbar {
+  width: 4px; /* Scrollbar width */
+}
+
+
 @media (min-width: 200px) and (max-width: 768px) {
     html, body {
         width: 100%;
@@ -888,6 +919,10 @@ footer {
         height: 160%;
     }
 
+    .nav-item-cta {
+        margin: 1rem auto 0 auto !important;
+    }
+
 }
 
 @media (min-width: 770px) and (max-width: 1100px) {
@@ -931,6 +966,10 @@ footer {
 
     .footer-waves-square {
         height: 90%;
+    }
+
+    .nav-item-cta {
+        margin: 0 auto 0 auto !important;
     }
 
 }

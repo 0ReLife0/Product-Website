@@ -119,19 +119,34 @@
         <div class="logo-container">
             <img src="/assets/img/sponsors/microsoft.webp" alt="Partner Logo 1" class="partner-logo">
             <img src="/assets/img/sponsors/google.png" alt="Partner Logo 2" class="partner-logo">
-            <img src="/assets/img/sponsors/spacex.png" alt="Partner Logo 2" class="partner-logo">
-            <img src="/assets/img/sponsors/netflix.svg" alt="Partner Logo 2" class="partner-logo">
-            <img src="/assets/img/sponsors/nhl.png" alt="Partner Logo 2" class="partner-logo">
+            <img src="/assets/img/sponsors/spacex.png" alt="Partner Logo 3" class="partner-logo">
+            <img src="/assets/img/sponsors/netflix.svg" alt="Partner Logo 4" class="partner-logo">
+            <img src="/assets/img/sponsors/nhl.png" alt="Partner Logo 5" class="partner-logo">
             <img src="/assets/img/sponsors/microsoft.webp" alt="Partner Logo 1" class="partner-logo">
             <img src="/assets/img/sponsors/google.png" alt="Partner Logo 2" class="partner-logo">
-            <img src="/assets/img/sponsors/spacex.png" alt="Partner Logo 2" class="partner-logo">
-            <img src="/assets/img/sponsors/netflix.svg" alt="Partner Logo 2" class="partner-logo">
-            <img src="/assets/img/sponsors/nhl.png" alt="Partner Logo 2" class="partner-logo">
+            <img src="/assets/img/sponsors/spacex.png" alt="Partner Logo 3" class="partner-logo">
+            <img src="/assets/img/sponsors/netflix.svg" alt="Partner Logo 4" class="partner-logo">
+            <img src="/assets/img/sponsors/nhl.png" alt="Partner Logo 5" class="partner-logo">
             <img src="/assets/img/sponsors/microsoft.webp" alt="Partner Logo 1" class="partner-logo">
             <img src="/assets/img/sponsors/google.png" alt="Partner Logo 2" class="partner-logo">
-            <img src="/assets/img/sponsors/spacex.png" alt="Partner Logo 2" class="partner-logo">
-            <img src="/assets/img/sponsors/netflix.svg" alt="Partner Logo 2" class="partner-logo">
-            <img src="/assets/img/sponsors/nhl.png" alt="Partner Logo 2" class="partner-logo">
+            <img src="/assets/img/sponsors/spacex.png" alt="Partner Logo 3" class="partner-logo">
+            <img src="/assets/img/sponsors/netflix.svg" alt="Partner Logo 4" class="partner-logo">
+            <img src="/assets/img/sponsors/nhl.png" alt="Partner Logo 5" class="partner-logo">
+            <img src="/assets/img/sponsors/microsoft.webp" alt="Partner Logo 1" class="partner-logo">
+            <img src="/assets/img/sponsors/google.png" alt="Partner Logo 2" class="partner-logo">
+            <img src="/assets/img/sponsors/spacex.png" alt="Partner Logo 3" class="partner-logo">
+            <img src="/assets/img/sponsors/netflix.svg" alt="Partner Logo 4" class="partner-logo">
+            <img src="/assets/img/sponsors/nhl.png" alt="Partner Logo 5" class="partner-logo">
+            <img src="/assets/img/sponsors/microsoft.webp" alt="Partner Logo 1" class="partner-logo">
+            <img src="/assets/img/sponsors/google.png" alt="Partner Logo 2" class="partner-logo">
+            <img src="/assets/img/sponsors/spacex.png" alt="Partner Logo 3" class="partner-logo">
+            <img src="/assets/img/sponsors/netflix.svg" alt="Partner Logo 4" class="partner-logo">
+            <img src="/assets/img/sponsors/nhl.png" alt="Partner Logo 5" class="partner-logo">
+            <img src="/assets/img/sponsors/microsoft.webp" alt="Partner Logo 1" class="partner-logo">
+            <img src="/assets/img/sponsors/google.png" alt="Partner Logo 2" class="partner-logo">
+            <img src="/assets/img/sponsors/spacex.png" alt="Partner Logo 3" class="partner-logo">
+            <img src="/assets/img/sponsors/netflix.svg" alt="Partner Logo 4" class="partner-logo">
+            <img src="/assets/img/sponsors/nhl.png" alt="Partner Logo 5" class="partner-logo">
         </div>
     </div>
 
