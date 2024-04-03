@@ -9,11 +9,6 @@
 
 }
 
-
-* {
-    border: solid 1px red;
-}
-
 html, body {
     height: 100svh; 
     margin: 0;
@@ -135,9 +130,6 @@ h4 {
 .scrolled {
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
-    border-bottom: #056839;
-    border-width: 1px;
-    border-style: solid;
 }
 
 .img-wrapper {
@@ -542,7 +534,7 @@ a {
 .cta-btn-container {
     display: block;
     height: auto;
-    margin-bottom: 8rem !important;
+    margin-bottom: 4rem !important;
     margin: 0 auto;
     width: 250px;
 
