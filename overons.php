@@ -5,10 +5,10 @@
 ?>
 <?php include './components/navbar.php'; ?>
 
-<div class="container">
+<div class="container content">
         <div class="row">
-            <div class="col-12 content">
-                <div class="col-lg-12">
+            <div class="col-12 ">
+                <div class="col-lg-12 ">
                     <h1 class="display-3 text-center fadeInTop">Wie zijn <span style="color:#056839">wij?</span></h1>
                     <h5 class="my-5 py-5 fadeInTop" >Ontmoet het dynamische team achter ReLife, de pioniers die zich inzetten voor de transformatie van de tweedehands en gereviseerde markt door innovatie en duurzaamheid.</h5>
                 </div>

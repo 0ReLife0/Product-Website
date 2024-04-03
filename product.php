@@ -5,8 +5,8 @@
 ?>
 <?php include './components/navbar.php'; ?>
 
-<div class="col-sm-12 col-md-12 col-lg-12 product-content">
-    <div class="container content">
+<div class="col-sm-12 col-md-12 col-lg-12 product-content content">
+    <div class="container">
         <div class="row mb-2">
             <div class="col-lg-12">
                 <h1 class="display-4 text-center fadeInTop">Vind Je Perfecte <span style="color:#056839">Match!</span></h1>
