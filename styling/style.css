@@ -756,7 +756,7 @@ footer {
     width: 100%;
     max-width: 1140px;
     border-radius: 20px;
-    margin: 5rem auto 30rem auto;
+    margin: 8rem auto 30rem auto;
     overflow: hidden;
 }
 
@@ -776,8 +776,16 @@ footer {
 }
 
 
-.contact-page-main-title, .contact-page-subtitle {
+.contact-page-main-title, .contact-page-main-subtitle {
     font-family: "Archive";
+}
+
+
+.contact-page-main-subtitle {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: -10rem !important; 
+
 }
 
 
@@ -857,7 +865,7 @@ footer {
     }
 
     #map-container {
-        margin-bottom: 5rem;
+        margin-bottom: 20rem;
     }
 
     .landing-page-main-section {
