@@ -1,10 +1,10 @@
-        
 
         <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
         <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
         <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script defer type="text/javascript" src="./scripts/main.js"></script>
+        <script defer type="text/javascript" src="/scripts/scroll-reveal-el.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     </body>
     <footer>
 
@@ -101,71 +101,26 @@
 
 
         <div class="footer-waves-container">
-            <svg class="footer-waves" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="400px" viewBox="0 200 1600 920" preserveAspectRatio="xMidYMax slice">
-                <defs>
-                    <linearGradient id="bg">
-                        <stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
-                        <stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
-                        <stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
-                    </linearGradient>
-                    <path id="wave" fill="#056839" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
-                </defs>
-                <g>
-                    <use xlink:href='#wave' opacity=".3">
-                        <animateTransform
-                        attributeName="transform"
-                        attributeType="XML"
-                        type="translate"
-                        dur="10s"
-                        calcMode="spline"
-                        values="270 230; -334 180; 270 230"
-                        keyTimes="0; .5; 1"
-                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-                        repeatCount="indefinite" />
-                    </use>
-                    <use xlink:href='#wave' opacity=".6">
-                        <animateTransform
-                        attributeName="transform"
-                        attributeType="XML"
-                        type="translate"
-                        dur="8s"
-                        calcMode="spline"
-                        values="-270 230;243 220;-270 230"
-                        keyTimes="0; .6; 1"
-                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-                        repeatCount="indefinite" />
-                    </use>
-                    <use xlink:href='#wave' opacity=".9">
-                        <animateTransform
-                        attributeName="transform"
-                        attributeType="XML"
-                        type="translate"
-                        dur="6s"
-                        calcMode="spline"
-                        values="0 230;-140 200;0 230"
-                        keyTimes="0; .4; 1"
-                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-                        repeatCount="indefinite" />
-                    </use>
-                </g>
+            <svg class="footer-waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0c6d3e" fill-opacity="1" d="M0,96L26.7,117.3C53.3,139,107,181,160,170.7C213.3,160,267,96,320,101.3C373.3,107,427,181,480,208C533.3,235,587,213,640,176C693.3,139,747,85,800,74.7C853.3,64,907,96,960,106.7C1013.3,117,1067,107,1120,90.7C1173.3,75,1227,53,1280,42.7C1333.3,32,1387,32,1413,32L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
             </svg>
+            <div class="footer-waves-square"></div>
         </div>
 
         <div class="footer-content">
             <div class="footer-column">
                 <h3>Algemeen</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Neem Contact</a></li>
+                    <li><a href="/index.php">Home</a></li>
+                    <li><a href="/product.php">Product</a></li>
+                    <li><a href="/contact.php">Neem Contact</a></li>
                 </ul>
             </div>
             <div class="footer-column">
                 <h3>Wie zijn wij?</h3>
                 <ul>
-                    <li><a href="./vision.php">Visie</a></li>
-                    <li><a href="./overons.php">Over Ons</a></li>
+                    <li><a href="/vision.php">Visie</a></li>
+                    <li><a href="/overons.php">Over Ons</a></li>
                     <li><a href="javascript:void(0)" onclick="openOverlay('algemeneVoorwaardenOverlay')">Algemene voorwaarden</a></li>
                     <li><a href="javascript:void(0)" onclick="openOverlay('privacyOverlay')">Privacy</a></li>
                 </ul>
