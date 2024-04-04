@@ -681,7 +681,7 @@ footer {
 .footer-waves {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 500px;
     bottom: 0;
     margin-bottom: 2rem;
     display: block;
@@ -809,6 +809,40 @@ footer {
   width: 4px; /* Scrollbar width */
 }
 
+/* .error-page-main-title {
+    color: #056839 !important; 
+    font-weight: bold !important; 
+    font-family: 'Archive' !important;
+    font-size: 4rem;
+} */
+
+.error-page-text-img {
+    margin-top: -5rem !important;
+    
+}
+
+.error-image {
+    display: block;
+    width: 100%;
+    max-width: 300px !important;
+    height: auto;
+    margin: auto;
+}
+
+.error-page-text {
+    text-align: left;
+}
+
+.error-page-text ul li a {
+    text-decoration: none !important;
+    color: #056839 !important;
+}
+
+.error-page-code {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ee5253;
+} 
 
 @media (min-width: 200px) and (max-width: 768px) {
     html, body {
@@ -858,11 +892,6 @@ footer {
         top: 15%;
     }
 
-    .footer-waves {
-
-        height: 1600px;
-
-    }
 
     #map-container {
         margin-bottom: 20rem;
@@ -924,12 +953,35 @@ footer {
     }
 
     .footer-waves-square {
-        height: 160%;
+        height: 130%;
+    }
+    
+    .footer-waves {
+
+        height: 100%;
+        bottom: 400px;
+
     }
 
     .nav-item-cta {
         margin: 1rem auto 0 auto !important;
     }
+
+
+    .error-page-text {
+        font-weight: normal;
+        margin: 1em auto 1em auto !important;
+        text-align: center;
+    }
+
+    .error-page-text ul {
+        margin: 2rem auto -10rem -2rem !important;
+    }
+
+    .error-page-text ul li {
+        list-style: none;
+    }
+
 
 }
 
@@ -947,9 +999,15 @@ footer {
         margin: 0rem 0 -4rem 0.8rem;
     }
 
+    .footer-waves-square {
+        height: 90%;
+    }
+    
     .footer-waves {
 
-        height: 1000px;
+        height: 100%;
+        bottom: 240px;
+
     }
 
     .landing-page-main-section {
@@ -972,12 +1030,12 @@ footer {
         align-self: left;
     }
 
-    .footer-waves-square {
-        height: 90%;
-    }
-
     .nav-item-cta {
         margin: 0 auto 0 auto !important;
     }
+    .error-page-text-img {
+        margin-bottom: 10rem !important;
+    }
+
 
 }
