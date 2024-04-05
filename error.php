@@ -30,7 +30,7 @@
                     <ul>
                         <li><a href="/">Ga naar home</a></li>
                         <li><a href="javascript:history.back()">Ga terug</a></li>
-                        <li><a href="/contact.php">Neem contact met ons</a></li>
+                        <li><a href="/contact">Neem contact met ons</a></li>
                     </ul>
                 </div>
             </div>

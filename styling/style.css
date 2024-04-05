@@ -296,41 +296,71 @@ h4 {
 }
 
 .partners-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: auto;
-    width: 80%; 
-    max-width: 1000px;
+    width: 100%; 
     overflow: hidden;
-    box-sizing: border-box;
     white-space: nowrap; 
-    padding: 0 0 5rem 0;
+    position: relative;
+    padding: 1rem 0;
 }
 
-.logo-container {
-    display: flex;
-    animation: scroll 20s linear infinite;
+.partners-container::before, .partners-container::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 2;
+}
+
+.partners-container::before{
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #ffff);
+}
+
+.partners-container::after{
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffff);
+}
+
+
+.logos {
+    display: inline-block;
+    animation: scroll 10s linear infinite;
     margin: auto;
-    width: calc(200%);
 }
 
-.partner-logo {
-    display: block;
+.logos img {
     object-fit: contain;
-    width: 150px; 
+    margin: auto;
+    width: 120px;
     height: auto;
     filter: grayscale(100%); 
-    padding: 0 15px; 
+    margin: 0 40px;
+}
+
+.logos img:hover {
+    scale: 1.1;
+    filter: grayscale(0%);
+    transition: all 0.2s ease-in-out;
+}
+
+.logos img:not(:hover) {
+    transition: all 0.2s ease-in-out;
+}
+
+.partners-container:hover .logos {
+    animation-play-state: paused;
 }
 
 /* Keyframes for the scrolling animation */
 @keyframes scroll {
     0% {
-        transform: translate3d(0, 0, 0);
+        transform: translateX(0);
     }
     100% {
-        transform: translate3d(-50%, 0, 0);;
+        transform: translateX(-100%);
     }
 }
 
@@ -809,12 +839,6 @@ footer {
   width: 4px; /* Scrollbar width */
 }
 
-/* .error-page-main-title {
-    color: #056839 !important; 
-    font-weight: bold !important; 
-    font-family: 'Archive' !important;
-    font-size: 4rem;
-} */
 
 .error-page-text-img {
     margin-top: -5rem !important;
@@ -839,9 +863,9 @@ footer {
 }
 
 .error-page-code {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #ee5253;
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    color: #ee5253 !important;
 } 
 
 @media (min-width: 200px) and (max-width: 768px) {
@@ -979,7 +1003,11 @@ footer {
     }
 
     .error-page-text ul li {
-        list-style: none;
+        list-style: none !important;
+    }
+
+    .partners-container::before, .partners-container::after{
+        width: 50px;
     }
 
 
@@ -1037,5 +1065,7 @@ footer {
         margin-bottom: 10rem !important;
     }
 
-
+    .partners-container::before, .partners-container::after{
+        width: 80px;
+    }
 }
